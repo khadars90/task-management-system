@@ -1,4 +1,5 @@
 package org.example.taskmanagement.security;
+import org.springframework.beans.factory.annotation.Value;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -12,14 +13,16 @@ import java.util.Date;
 @Service
 public class JwtService {
 
-    private static final String SECRET_KEY =
-            "mysecretkeymysecretkeymysecretkeymysecretkey123456789";
-
+    @Value("${JWT_SECRET}")
+private String secretKey;
+    
     private SecretKey getSignInKey() {
-        return Keys.hmacShaKeyFor(
-                SECRET_KEY.getBytes(StandardCharsets.UTF_8)
-        );
-    }
+
+    return Keys.hmacShaKeyFor(
+            secretKey.getBytes(StandardCharsets.UTF_8)
+    );
+
+}
 
     public String generateToken(String email) {
 
