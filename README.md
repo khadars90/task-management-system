@@ -83,9 +83,8 @@ npm run dev
 
 ## 📸 Screenshots
 
-> Add screenshots here after deployment.
-
 - Login
+  ![Login Page](Screenshots/Login.png)
 - Register
 - Dashboard
 - My Tasks
