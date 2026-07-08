@@ -88,10 +88,10 @@ npm run dev
 - Register
   ![Register Page](Screenshots/Register.png)
 - Dashboard
-  ![Dashboard Page](Screenshots/Dashboard_1.png)
   ![Dashboard Page](Screenshots/Dashboard_2.png)
+  ![Dashboard Page](Screenshots/Dashboard_1.png)
 - My Tasks
-  ![Tasks Page](Screenshots/My_Tasks.png)
+  ![Tasks Page](Screenshots/My-Tasks.png)
 - Profile
   ![Profile Page](Screenshots/Profile.png)
 
