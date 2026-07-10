@@ -20,6 +20,13 @@ A full-stack Task Management System built using **Spring Boot**, **React**, **JW
 
 ---
 
+## 🎥 Project Demo
+
+Watch the complete application demo:
+https://youtu.be/mIAhgPKotFA
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Backend
